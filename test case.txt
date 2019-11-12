@@ -1,0 +1,71 @@
+Web API yang saya buat ditesting dengan POSTMAN dan Database menggunakan MYSQL
+dengan userid : 
+1. user001 masuk group UserA, output :
+[
+    {
+        "moduleName": "PromoCard",
+        "moduleOrder": 1
+    },
+    {
+        "moduleName": "CategoryCard",
+        "moduleOrder": 2
+    },
+    {
+        "moduleName": "FlashSaleCard",
+        "moduleOrder": 3
+    },
+    {
+        "moduleName": "HistoryCard",
+        "moduleOrder": 4
+    },
+    {
+        "moduleName": "NewsCard",
+        "moduleOrder": 5
+    }
+]
+2. user003 masuk group UserB, output :
+[
+    {
+        "moduleName": "PromoCard",
+        "moduleOrder": 1
+    },
+    {
+        "moduleName": "NewsCard",
+        "moduleOrder": 5
+    },
+    {
+        "moduleName": "FlashSaleCard",
+        "moduleOrder": 3
+    },
+    {
+        "moduleName": "CategoryCard",
+        "moduleOrder": 2
+    },
+    {
+        "moduleName": "NewsCard",
+        "moduleOrder": 5
+    }
+]
+3. user007 masuk group UserC, output :
+[
+    {
+        "moduleName": "PromoCard",
+        "moduleOrder": 1
+    },
+    {
+        "moduleName": "FlashSaleCard",
+        "moduleOrder": 3
+    },
+    {
+        "moduleName": "CategoryCard",
+        "moduleOrder": 2
+    },
+    {
+        "moduleName": "NewsCard",
+        "moduleOrder": 5
+    },
+    {
+        "moduleName": "HistoryCard",
+        "moduleOrder": 4
+    }
+]
